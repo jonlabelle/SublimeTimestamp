@@ -1,6 +1,6 @@
 # Sublime Text Timestamp
 
-A Sublime Text plug-in to insert a timestamp.
+A [Sublime Text](http://www.sublimetext.com) plug-in to insert a timestamp.
 
 ## Install
 
