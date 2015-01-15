@@ -22,4 +22,4 @@ Timestamp can be accessed from the Sublime Text command palette...
 
 ## Author
 
-Jon LaBelle <jon@tech0.com>
+Jon LaBelle <contact@jonlabelle.com>
