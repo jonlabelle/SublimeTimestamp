@@ -1,6 +1,6 @@
-# Sublime Text Timestamp
+# Sublime Text UTC Timestamp
 
-A [Sublime Text](http://www.sublimetext.com) plug-in to insert a timestamp.
+A simple [Sublime Text](http://www.sublimetext.com) plug-in that inserts a UTC timestamp.
 
 ## Install
 
@@ -8,17 +8,17 @@ Download the [zip](https://github.com/jonlabelle/SublimeTimestamp/archive/master
 
 ## Usage
 
-Timestamp can be accessed from the Sublime Text command palette...
+To insert a UTC Timestamp:
 
-- `ctrl/cmd + shift + P` : ***Insert Timestamp***
+- Open the Command Pallette (<kbd>ctrl/cmd + shift + P</kbd>), and select **Insert UTC Timestamp**.
 
 ### Example Timestamp
 
-	2015-01-14 20:26:20
+	UTC 2015-01-14 20:26:20
 
 ### Timestamp Format
 
-	%Y-%m-%d %H:%M:%S
+	UTC %Y-%m-%d %H:%M:%S
 
 ## Author
 

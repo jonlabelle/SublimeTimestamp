@@ -6,8 +6,8 @@ import sublime_plugin
 class TimestampCommand(sublime_plugin.TextCommand):
 
     def run(self, edit):
-        timestamp_format = '%Y-%m-%d %H:%M:%S'
-        timestamp_str = datetime.datetime.now().strftime(timestamp_format)
+        timestamp_format = 'UTC %Y-%m-%d %H:%M:%S'
+        timestamp_str = datetime.datetime.utcnow().strftime(timestamp_format)
 
         for region in self.view.sel():
             if region.empty():
@@ -16,4 +16,4 @@ class TimestampCommand(sublime_plugin.TextCommand):
                 self.view.replace(edit, region, timestamp_str)
 
         sublime.set_timeout(
-            lambda: sublime.status_message('Timestamp inserted.'), 0)
+            lambda: sublime.status_message('UTC Timestamp inserted.'), 0)
