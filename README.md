@@ -12,13 +12,13 @@ To insert a UTC Timestamp:
 
 - Open the Command Pallette (<kbd>ctrl/cmd + shift + P</kbd>), and select **Insert UTC Timestamp**.
 
-### Example Timestamp
+### Example
 
-	UTC 2015-01-14 20:26:20
+    UTC 2015-01-14 20:26:20
 
-### Timestamp Format
+### Format
 
-	UTC %Y-%m-%d %H:%M:%S
+    UTC %Y-%m-%d %H:%M:%S
 
 ## Author
 
