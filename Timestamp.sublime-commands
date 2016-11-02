@@ -1,3 +1,4 @@
 [
-	{ "caption": "Insert UTC Timestamp", "command": "timestamp" }
+	{ "caption": "Insert UTC Timestamp", "command": "utctimestamp" },
+	{ "caption": "Insert Datestamp", "command": "datestamp" }
 ]

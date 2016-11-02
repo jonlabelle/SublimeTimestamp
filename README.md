@@ -8,17 +8,12 @@ Download the [zip](https://github.com/jonlabelle/SublimeTimestamp/archive/master
 
 ## Usage
 
-To insert a UTC Timestamp:
+Open the Command Palette (<kbd>ctrl/cmd + shift + P</kbd>), and select...
 
-- Open the Command Pallette (<kbd>ctrl/cmd + shift + P</kbd>), and select **Insert UTC Timestamp**.
-
-### Example
-
-    UTC 2015-01-14 20:26:20
-
-### Format
-
-    UTC %Y-%m-%d %H:%M:%S
+| Command Palette Name |        Example        |
+|-----------------------|-----------------------|
+| Insert UTC Timestamp  | `2015-01-14 20:26:20` |
+| Insert Date           | `November 1, 2016`    |
 
 ## Author
 
