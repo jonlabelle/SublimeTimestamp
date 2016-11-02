@@ -6,7 +6,7 @@ import sublime_plugin
 class UtctimestampCommand(sublime_plugin.TextCommand):
 
     def run(self, edit):
-        timestamp_format = 'UTC %Y-%m-%d %H:%M:%S'
+        timestamp_format = '%Y-%m-%d %H:%M:%S'
         timestamp_str = datetime.datetime.utcnow().strftime(timestamp_format)
 
         for region in self.view.sel():
