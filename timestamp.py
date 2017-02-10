@@ -1,14 +1,14 @@
-import datetime
-import re
+from datetime import date, datetime
+from re import sub
+
 import sublime
 import sublime_plugin
 
 
 class UtctimestampCommand(sublime_plugin.TextCommand):
-
     def run(self, edit):
         timestamp_format = '%Y-%m-%d %H:%M:%S'
-        timestamp_str = datetime.datetime.utcnow().strftime(timestamp_format)
+        timestamp_str = datetime.utcnow().strftime(timestamp_format)
 
         for region in self.view.sel():
             if region.empty():
@@ -21,11 +21,10 @@ class UtctimestampCommand(sublime_plugin.TextCommand):
 
 
 class DatestampCommand(sublime_plugin.TextCommand):
-
     def run(self, edit):
         date_format = '%B %d, %Y'
-        datestamp_str = datetime.date.today().strftime(date_format)
-        datestamp_str = re.sub('^0|(?<= )0', '', datestamp_str)
+        datestamp_str = date.today().strftime(date_format)
+        datestamp_str = sub('^0|(?<= )0', '', datestamp_str)
 
         for region in self.view.sel():
             if region.empty():
