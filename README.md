@@ -1,8 +1,6 @@
 # Sublime Text Timestamp
 
-[![Build Status](https://travis-ci.com/jonlabelle/SublimeTimestamp.svg?branch=master)](https://travis-ci.com/jonlabelle/SublimeTimestamp)
-
-A simple [Sublime Text](http://www.sublimetext.com) plug-in that inserts a timestamp.
+> A simple [Sublime Text](http://www.sublimetext.com) plug-in that inserts a timestamp.
 
 ## Install
 
